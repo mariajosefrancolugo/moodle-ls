@@ -1,7 +1,6 @@
 <?php
 
 $capabilities = array(
-
     'mod/moodlels:addinstance' => array(
         'riskbitmask' => RISK_XSS,
         'captype' => 'write',
@@ -14,7 +13,6 @@ $capabilities = array(
     ),
 
     'mod/moodlels:view' => array(
-
         'captype' => 'read',
         'contextlevel' => CONTEXT_MODULE,
         'archetypes' => array(
