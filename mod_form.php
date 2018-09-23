@@ -12,14 +12,11 @@
 
             $mform =& $this->_form;
 
-            $mform->addElement('text', 'name', get_string('certificatename', 'certificate'), array('size'=>'64'));
-            $mform->setType('name', PARAM_TEXT);
-            $mform->addRule('name', null, 'required', null, 'client');
-
-            $ynoptions = array(0 => get_string('no'),
-                               1 => get_string('yes'));
-            $mform->addElement('select', 'usecode', get_string('usecode', 'certificate'), $ynoptions);
-            $mform->setDefault('usecode', 0);
+            $opcional_preg1 = array(
+                'a' => 'Si lo práctico',
+                'b' => 'Si pienso en ello');
+            $mform->addElement('select', 'usecode', get_string('modelo_felder_silverman_preg1', 'moodlels'), $opcional_preg1);
+            $mform->setDefault('usecode', 'a');
             $mform->addHelpButton('usecode', 'usecode', 'certificate');
 
             $this->standard_coursemodule_elements();

@@ -1,32 +1,10 @@
 <?php
 
-// $string['addlinklabel'] = 'Add another linked activity option';
-// $string['addlinktitle'] = 'Click to add another linked activity option';
-// $string['areaintro'] = 'Certificate introduction';
-// $string['awarded'] = 'Awarded';
-// $string['awardedto'] = 'Awarded To';
-// $string['back'] = 'Back';
-// $string['border'] = 'Border';
-// $string['borderblack'] = 'Black';
-// $string['borderblue'] = 'Blue';
-// $string['borderbrown'] = 'Brown';
-// $string['bordercolor'] = 'Border Lines';
-// $string['bordercolor_help'] = 'Since images can substantially increase the size of the pdf file, you may choose to print a border of lines instead of using a border image (be sure the Border Image option is set to No).  The Border Lines option will print a nice border of three lines of varying widths in the chosen color.';
-// $string['bordergreen'] = 'Green';
-// $string['borderlines'] = 'Lines';
-// $string['borderstyle'] = 'Border Image';
-// $string['borderstyle_help'] = 'The Border Image option allows you to choose a border image from the certificate/pix/borders folder.  Select the border image that you want around the certificate edges or select no border.';
-// $string['certificate'] = 'Verification for certificate code:';
 $string['certificate:addinstance'] = 'Add a certificate instance';
 $string['certificate:manage'] = 'Manage a certificate instance';
 $string['certificate:printteacher'] = 'Be listed as a teacher on the certificate if the print teacher setting is on';
 $string['certificate:student'] = 'Retrieve a certificate';
 $string['certificate:view'] = 'View a certificate';
-// $string['certificatename'] = 'Certificate Name';
-// $string['certificatereport'] = 'Certificates Report';
-// $string['certificatesfor'] = 'Certificates for';
-// $string['certificatetype'] = 'Certificate Type';
-// $string['certificatetype_help'] = 'This is where you determine the layout of the certificate. The certificate type folder includes four default certificates:
 // A4 Embedded prints on A4 size paper with embedded font.
 // A4 Non-Embedded prints on A4 size paper without embedded fonts.
 // Letter Embedded prints on letter size paper with embedded font.
@@ -37,99 +15,11 @@ $string['certificate:view'] = 'View a certificate';
 // New type folders can be added to the certificate/type folder. The name of the folder and any new language strings for the new type must be added to the certificate language file.';
 // $string['certify'] = 'This is to certify that';
 $string['code'] = 'Code';
-// $string['completiondate'] = 'Course Completion';
-// $string['course'] = 'For';
-// $string['coursegrade'] = 'Course Grade';
-// $string['coursename'] = 'Course';
-// $string['coursetimereq'] = 'Required minutes in course';
-// $string['coursetimereq_help'] = 'Enter here the minimum amount of time, in minutes, that a student must be logged into the course before they will be able to receive the certificate.';
-// $string['credithours'] = 'Credit Hours';
-// $string['customtext'] = 'Custom Text';
-// $string['customtext_help'] = 'If you want the certificate to print different names for the teacher than those who are assigned
-// the role of teacher, do not select Print Teacher or any signature image except for the line image.  Enter the teacher names in this text box as you would like them to appear.  By default, this text is placed in the lower left of the certificate. The following html tags are available: &lt;br&gt;, &lt;p&gt;, &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;img&gt; (src and width (or height) are mandatory), &lt;a&gt; (href is mandatory), &lt;font&gt; (possible attributes are: color, (hex color code), face, (arial, times, courier, helvetica, symbol)).';
-// $string['date'] = 'On';
-// $string['datefmt'] = 'Date Format';
-// $string['datefmt_help'] = 'Choose a date format to print the date on the certificate. Or, choose the last option to have the date printed in the format of the user\'s chosen language.';
-// $string['datehelp'] = 'Date';
-// $string['deletissuedcertificates'] = 'Delete issued certificates';
-// $string['delivery'] = 'Delivery';
-// $string['delivery_help'] = 'Choose here how you would like your students to get their certificate.
-// Open in Browser: Opens the certificate in a new browser window.
-// Force Download: Opens the browser file download window.
-// Email Certificate: Choosing this option sends the certificate to the student as an email attachment.
-// After a user receives their certificate, if they click on the certificate link from the course homepage, they will see the date they received their certificate and will be able to review their received certificate.';
-// $string['designoptions'] = 'Design Options';
-// $string['download'] = 'Force download';
-// $string['emailcertificate'] = 'Email';
-// $string['emailothers'] = 'Email Others';
-// $string['emailothers_help'] = 'Enter the email addresses here, separated by a comma, of those who should be alerted with an email whenever students receive a certificate.';
-// $string['emailstudenttext'] = 'Attached is your certificate for {$a->course}.';
-// $string['emailteachers'] = 'Email Teachers';
-// $string['emailteachers_help'] = 'If enabled, then teachers are alerted with an email whenever students receive a certificate.';
-// $string['emailteachermail'] = '
-// {$a->student} has received their certificate: \'{$a->certificate}\'
-// for {$a->course}.
-//
-// You can review it here:
-//
-//     {$a->url}';
-// $string['emailteachermailhtml'] = '
-// {$a->student} has received their certificate: \'<i>{$a->certificate}</i>\'
-// for {$a->course}.
-//
-// You can review it here:
-//
-//     <a href="{$a->url}">Certificate Report</a>.';
-// $string['entercode'] = 'Enter certificate code to verify:';
-// $string['fontsans'] = 'Sans-serif font family';
-// $string['fontsans_desc'] = 'Sans-serif font family for certificates with embedded fonts';
-// $string['fontserif'] = 'Serif font family';
-// $string['fontserif_desc'] = 'Serif font family for certificates with embedded fonts';
-// $string['getcertificate'] = 'Get your certificate';
-// $string['grade'] = 'Grade';
-// $string['gradedate'] = 'Grade Date';
-// $string['gradefmt'] = 'Grade Format';
-// $string['gradefmt_help'] = 'There are three available formats if you choose to print a grade on the certificate:
-//
-// Percentage Grade: Prints the grade as a percentage.
-// Points Grade: Prints the point value of the grade.
-// Letter Grade: Prints the percentage grade as a letter.';
-// $string['gradeletter'] = 'Letter Grade';
-// $string['gradepercent'] = 'Percentage Grade';
-// $string['gradepoints'] = 'Points Grade';
-// $string['imagetype'] = 'Image Type';
-// $string['incompletemessage'] = 'In order to download your certificate, you must first complete all required activities. Please return to the course to complete your coursework.';
-// $string['intro'] = 'Introduction';
-// $string['issueoptions'] = 'Issue Options';
-// $string['issued'] = 'Issued';
-// $string['issueddate'] = 'Date Issued';
-// $string['landscape'] = 'Landscape';
-// $string['lastviewed'] = 'You last received this certificate on:';
-// $string['letter'] = 'Letter';
-// $string['lockingoptions'] = 'Locking Options';
+$string['modelo_felder_silverman_preg1'] = 'Entiendo mejor algo';
 $string['modulename'] = 'Moodle-ls';
 $string['modulename_help'] = 'This module allows for the dynamic generation of certificates based on predefined conditions set by the teacher.';
 $string['modulename_link'] = 'Certificate_module';
 $string['modulenameplural'] = 'Moodle-ls';
-// $string['mycertificates'] = 'My Certificates';
-// $string['nocertificates'] = 'There are no certificates';
-// $string['nocertificatesissued'] = 'There are no certificates that have been issued';
-// $string['nocertificatesreceived'] = 'has not received any course certificates.';
-// $string['nofileselected'] = 'Must choose a file to upload!';
-// $string['nogrades'] = 'No grades available';
-// $string['notapplicable'] = 'N/A';
-// $string['notfound'] = 'The certificate number could not be validated.';
-// $string['notissued'] = 'Not Issued';
-// $string['notissuedyet'] = 'Not issued yet';
-// $string['notreceived'] = 'You have not received this certificate';
-// $string['openbrowser'] = 'Open in new window';
-// $string['opendownload'] = 'Click the button below to save your certificate to your computer.';
-// $string['openemail'] = 'Click the button below and your certificate will be sent to you as an email attachment.';
-// $string['openwindow'] = 'Click the button below to open your certificate in a new browser window.';
-// $string['or'] = 'Or';
-// $string['orientation'] = 'Orientation';
-// $string['orientation_help'] = 'Choose whether you want your certificate orientation to be portrait or landscape.';
-// $string['pluginadministration'] = 'Certificate administration';
 $string['pluginname'] = 'Moodle-ls';
 $string['portrait'] = 'Portrait';
 $string['printdate'] = 'Print Date';
