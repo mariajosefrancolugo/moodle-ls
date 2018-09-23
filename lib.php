@@ -1,6 +1,10 @@
 <?php
     defined('MOODLE_INTERNAL') or die();
 
-    // function moodlels_add_instance($certificate);
-    // function moodlels_update_instance($certificate);
-    // function moodlels_delete_instance($id);
+    require_once($CFG->dirroot . '/course/lib.php');
+    require_once($CFG->dirroot . '/grade/lib.php');
+    require_once($CFG->dirroot . '/grade/querylib.php');
+
+    // function certificate_add_instance($certificate);
+    // function certificate_update_instance($certificate);
+    // function certificate_delete_instance($id);
